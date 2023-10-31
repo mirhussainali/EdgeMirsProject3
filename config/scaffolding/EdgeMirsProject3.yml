@@ -1,0 +1,10 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: EdgeMirsProject3
+  gitServerName: MirsGit
+  gitUrl: https://github.com/mirhussainali/EdgeMirsProject3
+  gitUsername: mirhussainali
+  gitToken: edge.scaffolding.EdgeMirsProject3.MirsGit.gitToken
+  gitBranch: main

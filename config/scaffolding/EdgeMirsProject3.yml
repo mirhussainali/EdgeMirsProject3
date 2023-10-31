@@ -6,10 +6,16 @@ services:
   packages:
   - name: EdgeMirsProject3
     version: "1.0"
+  - name: wmCustomDBServices
+    version: "1.0"
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
     version: 11.0.0.0.560
+- serviceName: javautils:multiConcat
+  packages:
+  - name: wmCustomDBServices
+    version: "1.0"
 packages:
 - name: EdgeMirsProject3
   gitServerName: MirsGit

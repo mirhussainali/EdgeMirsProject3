@@ -6,10 +6,20 @@ services:
   packages:
   - name: EdgeMirsProject3
     version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.560
 packages:
 - name: EdgeMirsProject3
   gitServerName: MirsGit
   gitUrl: https://github.com/mirhussainali/EdgeMirsProject3
   gitUsername: mirhussainali
   gitToken: edge.scaffolding.EdgeMirsProject3.MirsGit.gitToken
+  gitBranch: main
+- name: wmCustomDBServices
+  gitServerName: MirsGit
+  gitUrl: https://github.com/mirhussainali
+  gitUsername: mirhussainali
+  gitToken: edge.scaffolding.wmCustomDBServices.MirsGit.gitToken
   gitBranch: main

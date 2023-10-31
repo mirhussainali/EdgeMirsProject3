@@ -1,6 +1,11 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.mirsproject3.integrations:FirstFlowEdgeRT
+  packages:
+  - name: EdgeMirsProject3
+    version: "1.0"
 packages:
 - name: EdgeMirsProject3
   gitServerName: MirsGit
